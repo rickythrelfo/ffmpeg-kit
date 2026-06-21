@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   # 1. Исправьте источник (source). Укажите путь к вашему собственному релизу.
   s.source = {
-    :http => "https://github.com/rickythrelfo/ffmpeg-kit/releases/download/v1.0.0/ffmpeg-kit-https-6.0-ios-xcframework.zip"
+    :http => "https://github.com/rickythrelfo/ffmpeg-kit/releases/download/v1.0.0/ffmpegkit-ios.xcframework.zip"
   }
 
   s.dependency "React-Core"
@@ -34,7 +34,8 @@ Pod::Spec.new do |s|
       "libavutil.xcframework",
       "libswscale.xcframework",
       "libswresample.xcframework",
-      "libavfilter.xcframework"
+      "libavfilter.xcframework",
+      "libavdevice.xcframework"
   ]
 
   s.source_files = [
